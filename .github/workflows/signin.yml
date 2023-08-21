@@ -14,7 +14,7 @@ jobs:
         with:
           REFRESH_TOKENS: ${{ secrets.REFRESH_TOKENS }}
           GP_TOKEN: ${{ secrets.GP_TOKEN}}
-          PUSH_TYPES: 'ServerChan'
+          PUSH_TYPES: 'ServerChan,wechat'
           DO_NOT_REWARD: 'false'
           SERVERCHAN_SEND_KEY: SCT70203TsrcwETcOMMaIXw18jWslolbw
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -33,3 +33,6 @@ jobs:
           CQHTTP_ENDPOINT: ${{ secrets.CQHTTP_ENDPOINT }}
           CQHTTP_USER_ID: ${{ secrets.CQHTTP_USER_ID }}
           CQHTTP_ACCESS_TOKEN: ${{ secrets.CQHTTP_ACCESS_TOKEN }}
+          wechat_corpid: wwf7b8998cf781138b
+          wechat_agentid: 1000005
+          wechat_corpsecret: xkoiWXDaYc8MuRT7d5OGhWOPHou6Y7N-KtEPmLr2Dac
